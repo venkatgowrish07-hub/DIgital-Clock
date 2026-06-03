@@ -3,11 +3,10 @@ module topmodule(
     input reset,
     input ena,
     input ctrl_12_or_24,
-    input hrmin_or_minsec,
     output pm,
-    output [7:0] seconds;
-    output [7:0] minutes;
-    output [7:0] hours;
+    output [7:0] seconds,
+    output [7:0] minutes,
+    output [7:0] hours
 );
 
 wire clk1hz;
