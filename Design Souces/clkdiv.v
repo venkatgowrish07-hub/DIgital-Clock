@@ -8,7 +8,7 @@ always @(posedge clk )
         count<=0;
         clkout<=0;
     end
-    else if (count==4) 
+  else if (count==49999999) 
         begin
             count<=0;
             clkout<=~clkout;
